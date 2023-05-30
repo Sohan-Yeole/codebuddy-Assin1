@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
+import Form1 from "./Form1";
+import Form2 from "./Form2";
+import Form3 from "./Form3";
+import Form4 from "./Form4";
+// import Form5 from "./Form5";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{marginLeft:"10%", color:"blue"}}>Codebuddy Assingment for Sohan Yeole</h1>
+      <Form1 />
+      <Form2 />
+      <Form3 />
+      <Form4 />
+      {/* <Form5 /> */}
     </div>
   );
 }
-
-export default App;
